@@ -508,6 +508,7 @@ Lcom/android/internal/net/ipsec/ike/utils/FdEventsReader$$ExternalSyntheticLambd
 Lcom/android/internal/net/ipsec/ike/utils/IkeAlarmReceiver;->onReceive(Landroid/content/Context;Landroid/content/Intent;)V,public-api,sdk,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/utils/IkeSecurityParameterIndex;->close()V,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/utils/IkeSecurityParameterIndex;->finalize()V,core-platform-api,public-api,sdk,system-api,test-api
+Lcom/android/internal/net/ipsec/ike/utils/LivenessAssister$$ExternalSyntheticLambda0;->run()V,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/utils/StateMachine$LogRec;->toString()Ljava/lang/String;,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/utils/StateMachine$SmHandler$$ExternalSyntheticLambda0;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,sdk,system-api,test-api
 Lcom/android/internal/net/ipsec/ike/utils/StateMachine$SmHandler$StateInfo;->toString()Ljava/lang/String;,core-platform-api,public-api,sdk,system-api,test-api
