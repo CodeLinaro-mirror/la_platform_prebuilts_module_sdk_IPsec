@@ -1,6 +1,12 @@
 drops {
   android_build_drop {
+<<<<<<< HEAD
     build_id: "T1009772"
+||||||| merged common ancestors
+    build_id: "T1010120"
+=======
+    build_id: "T1010137"
+>>>>>>> c049fc48610930c11e2c8eb60c9dc838ece9928d
     target: "train_build"
     source_file: "mainline-sdks/for-latest-build/current/com.google.android.ipsec/sdk/ipsec-module-sdk-current.zip"
   }
