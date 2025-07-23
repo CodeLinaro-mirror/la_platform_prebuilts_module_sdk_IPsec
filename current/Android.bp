@@ -51,7 +51,6 @@ java_sdk_library_import {
         "com.android.internal.net",
         "android.net.ipsec.ike",
         "android.net.eap",
-        "com.android.ipsec.flags",
     ],
     public: {
         jars: ["sdk_library/public/android.net.ipsec.ike-stubs.jar"],
