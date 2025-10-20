@@ -531,3 +531,8 @@ Lcom/android/internal/net/ipsec/ike/utils/WakeupMessage;->onAlarm()V,public-api,
 Lcom/android/internal/net/vcn/util/PersistableBundleUtils$PersistableBundleWrapper;->equals(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
 Lcom/android/internal/net/vcn/util/PersistableBundleUtils$PersistableBundleWrapper;->hashCode()I,core-platform-api,public-api,system-api,test-api
 Lcom/android/internal/net/vcn/util/PersistableBundleUtils$PersistableBundleWrapper;->toString()Ljava/lang/String;,core-platform-api,public-api,system-api,test-api
+Lcom/android/ipsec/flags/CustomFeatureFlags$$ExternalSyntheticLambda0;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
+Lcom/android/ipsec/flags/CustomFeatureFlags$$ExternalSyntheticLambda1;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
+Lcom/android/ipsec/flags/CustomFeatureFlags$$ExternalSyntheticLambda2;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
+Lcom/android/ipsec/flags/CustomFeatureFlags$$ExternalSyntheticLambda3;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
+Lcom/android/ipsec/flags/CustomFeatureFlags$$ExternalSyntheticLambda4;->test(Ljava/lang/Object;)Z,core-platform-api,public-api,system-api,test-api
