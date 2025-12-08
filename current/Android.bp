@@ -13,11 +13,6 @@ apex_contributions_defaults {
 
 prebuilt_bootclasspath_fragment {
     name: "com.android.ipsec-bootclasspath-fragment",
-    // Do not prefer prebuilt if the Soong config variable "source_build" in namespace "ipsec_module" is true.
-    use_source_config_var: {
-        config_namespace: "ipsec_module",
-        var_name: "source_build",
-    },
     visibility: ["//visibility:public"],
     apex_available: ["com.android.ipsec"],
     licenses: ["ipsec-module-sdk_Android-Apache-2.0"],
@@ -44,11 +39,6 @@ prebuilt_bootclasspath_fragment {
 
 java_sdk_library_import {
     name: "android.net.ipsec.ike",
-    // Do not prefer prebuilt if the Soong config variable "source_build" in namespace "ipsec_module" is true.
-    use_source_config_var: {
-        config_namespace: "ipsec_module",
-        var_name: "source_build",
-    },
     visibility: ["//visibility:public"],
     apex_available: [
         "com.android.ipsec",
@@ -61,6 +51,7 @@ java_sdk_library_import {
         "com.android.internal.net",
         "android.net.ipsec.ike",
         "android.net.eap",
+        "com.android.ipsec.flags",
     ],
     public: {
         jars: ["sdk_library/public/android.net.ipsec.ike-stubs.jar"],
@@ -93,4 +84,10 @@ license {
     visibility: ["//visibility:private"],
     license_kinds: ["SPDX-license-identifier-Apache-2.0"],
     license_text: ["licenses/build/soong/licenses/LICENSE"],
+}
+
+license {
+    name: "ipsec-module-sdk_opensourcerequest",
+    visibility: ["//visibility:private"],
+    license_text: ["licenses/build/soong/licenses/opensourcerequest"],
 }
